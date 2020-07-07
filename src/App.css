@@ -1,0 +1,43 @@
+body{
+  background-color: lightblue;
+}
+
+.App{
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+/*Definindo padroes do campo de texto*/
+#atividades input{
+  background-color: white;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: black;
+
+}
+
+/*Definindo cor da fonte digite a atividade */
+#atividades input::placeholder{
+  color: black;
+}
+
+#atividades input:focus, #atividades button{
+  outline: none;
+}
+
+/*Definindo padroes do botao*/
+#atividades button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: darkslategrey;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}

@@ -1,5 +1,3 @@
-# desafio-compasso2.0
-
 # Lista de atividades
 
 ## Sobre
